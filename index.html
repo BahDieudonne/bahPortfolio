@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAH DIEUDONNE PORTFOLIO</title>
+  <link rel="stylesheet" href="/assets/page.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" alt="" class="logo">
+        <h1>AH</h1>
+        <ul id="sideMenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closeMenu()"></i> 
+        </ul>
+        <i class="fas fa-bars" onclick="openMenu()"></i> 
+      </nav>
+      <div class="header-text">
+        <h4>Web Developer</h4>
+        <p>
+          <span class="js">Hi, </span> i am <span class="typed-text"></span>
+          <span class="cursor">&nbsp;</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!------------- About ---------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./images/bah.jpeg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1>About Me</h1>
+          <p>I am a dedicated software engineering student with some basic coding skills in C, C++, html & css. I excel in collaborative environments and have experience in web development (frontend developer). Passionate about continuous learning, I am eager to apply my knowledge to real-world tech challenges.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>MSWorld</span><br>Microsoft Office Tools</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>Electrician</span><br>Electrical Maintenance</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2017 - 2019</span><br>Electrical Maintenance</li>
+              <li><span>2017 - 2019</span><br>Electrical Maintenance</li>
+              <li><span>2024</span><br>Internship at LandMark Software Solutions.</li>
+              <li><span>2025 - HACKATHON</span><br>DelTech Hub Code4Change</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>LANDMARK METROPOLITAN UNIVERSITY</span><br>Dgree in Software Engineering – On  Going...</li>
+              <li><span>LANDMARK METROPOLITAN UNIVERSITY</span><br>HND in Software Engineering!</li>
+              <li><span>FONAB HIGH SCHOOL KKWEN, BAMENDA</span><br>Advance Level</li>
+              <li><span>2021 - GOVERNMENT TECHNICAL HIGH SCHOOL BAMENDA</span><br>Intermediate Level!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------Services------------>
+  <div id="services">
+    <div class="container">
+      <h1>My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I create modern, responsive, and user-friendly websites tailored to your brand and business goals.</p>
+          <a href="#">View Projects</a>
+        </div>
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum architecto pariatur nemo, perferendis nostrum sint.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum architecto pariatur nemo, perferendis nostrum sint.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------Portfolio----------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1>My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work3.jpg">
+          <div class="layer">
+            <h3>E-Commerce</h3>
+            <p>An e-commerce website for easy, secure, and fast online shopping.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work work1">
+          <img src="images/work1.png">
+          <div class="layer">
+            <h3>Hospital Website</h3>
+            <p>This side helps in providing easy access to healthcare services, appointments, and medical information..</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work2.jpg">
+          <div class="layer">
+            <h3>Exam Ease - On Going...</h3>
+            <p>This side helps to get access to pass HND question and answers!</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ---------Contact------------ -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>bahdieudonne49@gmail.com</p>
+          <p><i class="fa-solid fa-phone-square"></i>+237652839958</p>
+          <div class="social-icons">
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <a href="images/Bah Dieudonne Resume.pdf" download class="btn btn2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright @ Bah <i class="fa-solid fa-heart"></i> Dieudonne </p>
+    </div>
+  </div>
+
+  <script src="/assets/page.js"></script>
+</body>
+</html>
